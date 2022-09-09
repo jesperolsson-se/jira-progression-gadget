@@ -4,20 +4,13 @@ modules:
       title: jira-progression-gadget
       description: A hello world dashboard gadget.
       thumbnail: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
-      resource: main
-      resolver:
-        function: resolver
+      function: main
       edit:
-        resource: main
+        function: edit
   function:
-    - key: resolver
-      handler: index.handler
-resources:
-  - key: main
-    path: static/hello-world/build
-permissions:
-  content:
-    styles:
-      - unsafe-inline
+    - key: main
+      handler: index.runView
+    - key: edit
+      handler: index.runEdit
 app:
-  id: ari:cloud:ecosystem::app/efa31d22-00a7-4b6c-9270-d07475d5cb68
+  id: ari:cloud:ecosystem::app/ca1634bc-ad1d-4b06-a7cb-346e2922960f
