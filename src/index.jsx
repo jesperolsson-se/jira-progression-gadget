@@ -1,17 +1,20 @@
 import ApiEpics from "./epics"
+import ApiEpic from "./epic";
 import ForgeUI, { DashboardGadget, DashboardGadgetEdit, render, Text, useProductContext, useState, Select, Option } from "@forge/ui";
 
 const View = () => {
   const { extensionContext: { gadgetConfiguration } } = useProductContext();
+  const summary = useState(async () => await new ApiEpic(gadgetConfiguration.epic).summary())[0];
 
   return (
     <DashboardGadget>
       <Text
-        content={`Hello ${gadgetConfiguration.epic || "world"}.`}
+        content={`${gadgetConfiguration.epic} - ${summary}.`}
       />
     </DashboardGadget>
   );
 };
+
 
 const Edit = () => {
   const onSubmit = values => {
