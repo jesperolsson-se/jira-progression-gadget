@@ -5,11 +5,12 @@ import ForgeUI, { DashboardGadget, DashboardGadgetEdit, render, Text, useProduct
 const View = () => {
   const { extensionContext: { gadgetConfiguration } } = useProductContext();
   const summary = useState(async () => await new ApiEpic(gadgetConfiguration.epic).summary())[0];
+  const unresolvedChildren = useState(async () => await new ApiEpic(gadgetConfiguration.epic).unresolvedChildren())[0];
 
   return (
     <DashboardGadget>
       <Text
-        content={`${gadgetConfiguration.epic} - ${summary}.`}
+        content={`${gadgetConfiguration.epic} - ${summary} - ${unresolvedChildren}.`}
       />
     </DashboardGadget>
   );

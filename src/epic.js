@@ -17,5 +17,14 @@ export default class ApiEpic {
     const json = await epic.json();
     return json.fields.summary
   }
+
+  async unresolvedChildren() {
+    const children = await api
+      .asApp()
+      .requestJira(route`/rest/api/3/search?jql="Epic Link" in (${this.id}) AND resolved = EMPTY`,
+      { headers: { 'Accept': 'application/json'} });
+    const json = await children.json();
+    return json.total
+  }
 }
 
