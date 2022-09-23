@@ -1,3 +1,10 @@
+**Jira progression gadget** enables Jira Dashboards to display epics' progress.
+This plugin is designed to satisfy the following needs:
+1) Key project management information should be co-located.
+2) Progress should be available to a quick glance.
+3) Managerial data should always be up-to-date.
+4) Proper tools should be free.
+
 ## Requirements
 
 See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
