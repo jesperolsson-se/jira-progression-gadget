@@ -5,9 +5,24 @@ This plugin is designed to satisfy the following needs:
 3) Managerial data should always be up-to-date.
 4) Proper tools should be free.
 
-## Requirements
+# Installation
 
-See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
+This project is currently in Beta. To try it out, you must install it manually.
+Download
+[Atlassian Forge](https://developer.atlassian.com/platform/forge/set-up-forge/).
+and then run
+
+```
+npm install
+forge install
+```
+
+Open your Jira instance and naviate to `Dashboards`. You should now find
+`jira-progression-gadget` in the list of gadgets. 
+
+Should you encounter any problems related to `Atlassian Forge` please refer to
+the official [documentation]((https://developer.atlassian.com/platform/forge))
+or [support](https://developer.atlassian.com/platform/forge/get-help/).
 
 ## Quick start
 - Install dependencies:
@@ -36,10 +51,3 @@ forge tunnel
 - Use the `forge deploy` command when you want to persist code changes.
 - Use the `forge install` command when you want to install the app on a new site.
 - Once the app is installed on a site, the site picks up the new app changes you deploy without needing to rerun the install command.
-
-## Support
-
-See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge,
-including the [documentation of Forge dashboard gadgets](https://developer.atlassian.com/platform/forge/manifest-reference/#jira-dashboard-gadget). 
-
-See [Get help](https://developer.atlassian.com/platform/forge/get-help/) for how to get help and provide feedback.
