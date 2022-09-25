@@ -24,6 +24,13 @@ Should you encounter any problems related to `Atlassian Forge` please refer to
 the official [documentation]((https://developer.atlassian.com/platform/forge))
 or [support](https://developer.atlassian.com/platform/forge/get-help/).
 
+# Use cases
+
+Jira users [requested](https://jira.atlassian.com/browse/JSWCLOUD-9049)
+a progression gadget as early as 2013. Many real-world scenarios have been
+described over the years.
+
+
 ## Quick start
 - Install dependencies:
 ```
