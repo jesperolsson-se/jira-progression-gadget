@@ -43,6 +43,19 @@ can do is creating one of those big `Epic Burndown chart`s for each of a dozen
 epics or more. That doesn't meet our needs at all. We want a summary - an
 overview. That takes up very little screen space and comes without any clutter.
 
+## Time-consuming workarounds
+
+I'm a product owner who splits her time between a couple of different products.
+So I'm meeting with lots of stakeholders who are interested in our progress in
+different areas. It's a lot to keep track of and they get frustrated if all I
+can tell them is that we're still working on the same epics as last time we
+talked. And the time before last time. And the time before that...
+
+What I'm doing right now is exporting a lot of our Jira data to excel and try
+to whip together the information that's important to each stakeholder. The
+problem is, this takes too much time. Time that I really should be spending on
+my teams. Honestly, I'm already working more hours than I should just to keep
+things running. 
 
 ## Quick start
 - Install dependencies:
