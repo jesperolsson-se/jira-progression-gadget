@@ -55,7 +55,21 @@ What I'm doing right now is exporting a lot of our Jira data to excel and try
 to whip together the information that's important to each stakeholder. The
 problem is, this takes too much time. Time that I really should be spending on
 my teams. Honestly, I'm already working more hours than I should just to keep
-things running. 
+things running.
+
+## On-demand scope reporting
+
+My management teams always wants to know how many stories in an epic are
+complete and, I agree, that provides value. When we realize that an epic is in
+trouble we can start early with managing expectations, like negotiating scope
+or help our customers plan for a later date. The management team makes better
+decisions the more data they have. The more accurate and up-to-date data.
+
+The problem is, you have to click around through agile boards and whatnot to
+get that data. And then they don't think it's worth their time. Or mine. So we
+end up making worse decisions. So one dashboard that has all the information is
+really important. One dashboard - one click - that they can look at whenever
+they need to.
 
 ## Quick start
 - Install dependencies:
