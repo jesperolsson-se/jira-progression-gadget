@@ -71,6 +71,13 @@ end up making worse decisions. So one dashboard that has all the information is
 really important. One dashboard - one click - that they can look at whenever
 they need to.
 
+# How to contribute
+
+Thank you for considering to contribute to this project. We appreciate all
+efforts to improve this plugin, no matter how small. Please fork the repo, make
+your changes, and submit a pull request. Small pull request will be processed
+much faster and are less likely to be rejected.
+
 ## Quick start
 - Install dependencies:
 ```
