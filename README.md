@@ -18,7 +18,7 @@ forge install
 ```
 
 Open your Jira instance and naviate to `Dashboards`. You should now find
-`jira-progression-gadget` in the list of gadgets. 
+`Epic progression` in the list of gadgets. 
 
 Should you encounter any problems related to `Atlassian Forge` please refer to
 the official [documentation]((https://developer.atlassian.com/platform/forge))
