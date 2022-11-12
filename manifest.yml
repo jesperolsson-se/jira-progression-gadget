@@ -2,7 +2,7 @@ modules:
   jira:dashboardGadget:
     - key: epic-progression-gadget
       title: Epic progression
-      description: A hello world dashboard gadget.
+      description: Dashboard gadget for viewing progression of epics.
       thumbnail: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
       function: main
       edit:
