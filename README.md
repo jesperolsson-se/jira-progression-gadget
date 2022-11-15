@@ -7,22 +7,12 @@ This plugin is designed to satisfy the following needs:
 
 # Installation
 
-This project is currently in Beta. To try it out, you must install it manually.
-Download
-[Atlassian Forge](https://developer.atlassian.com/platform/forge/set-up-forge/).
-and then run
+Install the Beta version to your Jira instance using
+[this link](https://developer.atlassian.com/console/install/ca1634bc-ad1d-4b06-a7cb-346e2922960f?signature=48b13bf08922a90c7a0a0780d7d3f48b0a8da9f010cf6f863982ecd2830f2017&product=jira).
 
-```
-npm install
-forge install
-```
 
-Open your Jira instance and naviate to `Dashboards`. You should now find
+Next, open your Jira instance and naviate to `Dashboards`. You should now find
 `Epic progression` in the list of gadgets. 
-
-Should you encounter any problems related to `Atlassian Forge` please refer to
-the official [documentation]((https://developer.atlassian.com/platform/forge))
-or [support](https://developer.atlassian.com/platform/forge/get-help/).
 
 # Use cases
 
